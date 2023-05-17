@@ -1,0 +1,56 @@
+{
+  "checkResult": {
+    "overallStatus": "Unknown",
+    "completion": 0,
+    "text": "Автомобиль не проверен. Результат не доступен",
+    "image": ""
+  },
+  "checkGroupList": [
+    {
+      "name": "Двери",
+      "completion": 0,
+      "image": "",
+      "type": "Проверка кузова",
+      "checkList": [
+        {
+          "rules": [
+
+          ],
+          "title": "Дверные петли",
+          "status": "NotDone",
+          "description": "Подойдите к месту крепления дверей к кузову",
+          "description_warning": "Данная проверка выполняется симметрично с обеих сторон авто",
+          "description_alert": "",
+          "category": "Крепления",
+          "image": "",
+          "stepList": [
+            {
+              "rules": [
+
+              ],
+              "elementId": "",
+              "title": "Сорванная резьба",
+              "description": "Сорванная резьба присутствует на элементах, которые нередко снимались для ремонта, замены и т.п.",
+              "descriptionWarning": "",
+              "type": "Default",
+              "stepImageList": "",
+              "question": {
+                "text": "Присутствует ли сорванная резьба на дверных петлях?",
+                "answers": [
+                  {
+                    "text": "Да",
+                    "textWhenSelected": "Сорванная резьба присутствует"
+                  },
+                  {
+                    "text": "Нет",
+                    "textWhenSelected": "Сорванной резьбы нет"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
